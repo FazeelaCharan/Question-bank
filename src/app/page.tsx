@@ -31,7 +31,7 @@ export default function QuestionsPage() {
   return (
     <div className="p-6">
       <div className="flex justify-between items-center">
-        <h1 className="text-2xl font-semibold">Question Bank</h1>
+        <h1 className="text-2xl font-semibold">Survey Builder</h1>
         <Button onClick={handleCreate}>
           <Plus className="w-4 h-4 mr-2" />
           Create Question

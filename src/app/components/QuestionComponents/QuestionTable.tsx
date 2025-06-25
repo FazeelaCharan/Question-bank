@@ -7,7 +7,7 @@ import {
   useReactTable,
 } from "@tanstack/react-table";
 import { useMemo } from "react";
-import { Question } from "@/lib/types";
+import  Question  from "@/lib/types";
 import { useQuestions } from "@/Hooks/useQuestions";
 import { useDeleteQuestion } from "@/Hooks/useDeleteQuestion";
 import { Button } from "../ui/button";

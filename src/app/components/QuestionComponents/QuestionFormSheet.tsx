@@ -43,7 +43,7 @@ export const QuestionFormSheet = ({ open, onClose, initialData }: Props) => {
     <Sheet open={open} onOpenChange={onClose}>
       <SheetContent side="right">
         <SheetHeader>
-          <SheetTitle>{isEdit ? "Edit" : "Create"} Question</SheetTitle>
+          <SheetTitle>{isEdit ? "Edit" : "Create"}Add Survey Question</SheetTitle>
         </SheetHeader>
         <Formik
           initialValues={{
@@ -85,7 +85,7 @@ export const QuestionFormSheet = ({ open, onClose, initialData }: Props) => {
                 <Field
                   name="question"
                   as={Input}
-                  placeholder="Enter your question"
+                  placeholder="Enter your Survey question"
                 />
                 {errors.question && touched.question && (
                   <div className="text-red-500 text-sm">{errors.question}</div>
